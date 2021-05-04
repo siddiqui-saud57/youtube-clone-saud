@@ -1,30 +1,20 @@
 .videoRow {
   display: flex;
-  margin-bottom: 30px;
-  max-width: 700px;
-}
-.videoRow > img {
-  object-fit: contain;
-  width: 246px;
-  height: 130px;
+  padding: 10px;
 }
 .videoRow__text {
-  margin-left: 14px;
-}
-.videoRow__description {
-  margin-top: 20px;
-  font-size: 12px;
-  color: #606060;
+  margin-left: 15px;
+  color: black !important;
+  margin-bottom: 8px;
 }
 .videoRow__headline {
-  font-size: 12px;
-  color: grey;
+  color: black;
+  margin-bottom: 10px;
 }
-.videoRow__subsNumber {
-  font-weight: bolder;
-  color: rgb(84, 157, 211);
+.videoRow__description {
+  color: black;
 }
-.videoRow__subs {
-  background-color: lightgray;
-  padding: 2px;
+.videoRow > img {
+  width: 246px;
+  height: 130px;
 }

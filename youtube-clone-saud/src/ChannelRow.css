@@ -1,0 +1,12 @@
+.channelrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.channelRow__logo {
+  margin-right: 20px;
+  font-size: larger !important;
+}
+.channelRow__text {
+  margin-left: 20px;
+}

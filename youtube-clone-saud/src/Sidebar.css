@@ -1,5 +1,7 @@
 .sidebar {
   flex: 0.2;
+  background-color: whitesmoke;
+  border: 0px solid grey;
 }
 .sidebar > hr {
   height: 1px;

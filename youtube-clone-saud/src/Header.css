@@ -3,40 +3,44 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  background-color: white;
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: white;
+}
+.header__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header__logo {
-  height: 35px;
+  height: 65px;
   object-fit: contain;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 .header__input {
   display: flex;
   align-items: center;
-  width: 40%;
   border: 1px solid black;
-}
-.header__icons {
-  display: flex;
-  align-items: center;
-}
-.header__left {
-  display: flex;
-  align-items: center;
+  width: 50%;
 }
 .header__input > input {
   flex: 1;
   border: none;
+  outline-width: none;
+  height: 20px;
 }
-.header__inputButton {
-  width: 50px !important;
+.search__icon {
+  width: 180px;
   background-color: #fafafa;
-  border-left: 1px solid lightgray;
   color: gray;
+  border-left: 1px solid lightgray;
+}
+.header__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header__icon {
-  margin-right: 8px;
+  margin-right: 12px;
 }

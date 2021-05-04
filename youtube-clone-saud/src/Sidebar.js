@@ -1,6 +1,6 @@
-import React from 'react';
-import './Sidebar.css';
-import SidebarRow from './SidebarRow';
+import React from 'react'
+import "./Sidebar.css"
+import SidebarRow from "./SidebarRow";
 import WhatshotIcon from "@material-ui/icons/Whatshot";
 import SubscriptionsIcon from "@material-ui/icons/Subscriptions";
 import HomeIcon from "@material-ui/icons/Home";
@@ -14,9 +14,9 @@ import ExpandMoreOutlinedIcon from  "@material-ui/icons/ExpandMoreOutlined";
 const Sidebar = () => {
     return (
         <div className="sidebar">
-          <SidebarRow selected Icon={HomeIcon} title='Home' />
-          <SidebarRow Icon={WhatshotIcon} title='Trending'/>
-          <SidebarRow Icon={SubscriptionsIcon} title='Subscription' />
+          <SidebarRow Icon={HomeIcon} title="Home" />  
+          <SidebarRow Icon={WhatshotIcon} title="Trending" />
+          <SidebarRow Icon={SubscriptionsIcon} title="Subscription" />
           <hr />
           <SidebarRow Icon={VideoLibraryIcon} title='Library' />
           <SidebarRow Icon={HistoryIcon} title='History' />

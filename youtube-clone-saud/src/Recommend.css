@@ -1,0 +1,12 @@
+.recommend {
+  flex: 0.8;
+  background-color: whitesmoke;
+}
+.recommend > h2 {
+  font-size: 30px;
+  color: black;
+}
+.recommend__videos {
+  display: flex;
+  flex-wrap: wrap;
+}
